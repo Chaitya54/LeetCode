@@ -1,14 +1,14 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string s2;
+        string ans;
         for(char c : s){
             if(!isspace(c) && !ispunct(c) && isalnum(c)){
-                s2 += tolower(c);
+                ans += tolower(c);
             }
         }
-        for(int i=0; i<s2.size()/2; i++){
-            if(s2[i]!=s2[s2.size()-i-1]){
+        for(int i=0; i<ans.size()/2; i++){
+            if(ans[i]!=ans[ans.size()-i-1]){
                 return false;
             }
         }
