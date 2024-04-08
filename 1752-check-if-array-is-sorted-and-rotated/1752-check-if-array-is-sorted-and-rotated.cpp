@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         int min = nums[0];
         int start = -1;
-        for(int i=1; i< n; i++){
+        for(int i=1; i<n; i++){
             if(nums[i]>=nums[i-1]){
                 
             }
