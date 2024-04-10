@@ -41,7 +41,7 @@ public:
         int cnt = 0;
         for (int i = 0, n = nums.size(); i < n; i++) {
             if (nums[i] > nums[(i + 1) % n]) {
-                ++cnt;
+                cnt++;
             }
         }
         return cnt <= 1;
