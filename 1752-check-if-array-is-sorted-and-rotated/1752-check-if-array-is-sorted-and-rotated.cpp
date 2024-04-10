@@ -39,7 +39,7 @@ class Solution {
 public:
     bool check(vector<int> nums) {
         int cnt = 0;
-        for (int i = 0, n = nums.size(); i < n; ++i) {
+        for (int i = 0, n = nums.size(); i < n; i++) {
             if (nums[i] > nums[(i + 1) % n]) {
                 ++cnt;
             }
