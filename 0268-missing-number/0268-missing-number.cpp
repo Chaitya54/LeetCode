@@ -30,7 +30,6 @@ public:
             XOR1 = XOR1 ^ (i+1);
             XOR2 = XOR2 ^ nums[i];
         }
-        // XOR1 = XOR1 ^ (n+1);
         return XOR1 ^ XOR2;
         
     }
